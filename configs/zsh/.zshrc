@@ -141,3 +141,10 @@ export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# OpenClaw Completion
+source "/home/hrdk/.openclaw/completions/openclaw.zsh"
+export XDG_DATA_DIRS="/usr/local/share:$XDG_DATA_DIRS"
+export EDITOR=nvim
+export VISUAL=nvim
+export DISPLAY=:1
